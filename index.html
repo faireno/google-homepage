@@ -1,21 +1,31 @@
 <html>
   <head>
     <meta charset= "utf-8">
-    
-    <h4 class="about">About</h4> 
-    <h4 class="store">Store</h4>
-    <h4 class="gmail">Gmail</h4>
-    <h4 class="images">Images</h4>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
     
   </head>
   <body>
-    <img src="images/google-logo.jpg" alt="Google">
-    <div class="wrap">
-      <div class="search">
-        <input type="text" class="searchTerm"><i class="fas fa-microphone"></i>
-      </div>
+
+    <div class="topbar">
+      <ul class="left-top">
+        <li><a class="about" href="https://about.google/intl/en/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+        <li><a class="store" href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042">Store</a></li>
+      </ul>
+      <ul class="right-top">  
+        <li><a class="gmail" href="https://google.com/mail">Gmail</a></li>
+        <li><a class="images" href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></li>
+      </ul>
     </div>
-    <div class="search">
+    <div class="google">
+      <img src="images/google-logo.jpg" alt="Google">
+    </div>
+    <div class="wrap">
+      
+      <input type="text" class="searchTerm" size="60px" height="18px"id="search"/>
+      
+
+    </div>
+    <div class="buttons">
       <button type="submit" class="searchButton">Google Search
       </button>
       <button type="submit" class="searchButton">I'm Feeling Lucky
